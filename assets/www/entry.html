@@ -79,14 +79,14 @@
         }
     </style>
     <script type="text/javascript">
-        $('.pic').on('vclick',function(){
+        $('.pic').on('click',function(){
             $('#selectPopup').popup('open',{positionTo:'window'});
             $('#selectPopup').jqmData('picContain',$(this));
         });
-        $('#btnCamera').on('vclick',function(){
+        $('#btnCamera').on('click',function(){
             selectPhoto($('#selectPopup').jqmData('picContain'),navigator.camera.PictureSourceType.CAMERA);
         });
-        $('#btnAlbum').on('vclick',function(){
+        $('#btnAlbum').on('click',function(){
             selectPhoto($('#selectPopup').jqmData('picContain'),navigator.camera.PictureSourceType.SAVEDPHOTOALBUM);
         });
         function selectPhoto($picContain,sourceType){
