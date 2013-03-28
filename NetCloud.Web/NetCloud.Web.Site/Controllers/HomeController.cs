@@ -28,5 +28,10 @@ namespace NetCloud.Web.Site.Controllers
 
             return View();
         }
+
+        public ActionResult Phonegap()
+        {
+            return View();
+        }
     }
 }

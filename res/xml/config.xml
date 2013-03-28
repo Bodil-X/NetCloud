@@ -30,7 +30,7 @@
     <access origin=".*"/>
 
     <!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
-    <content src="index.html" />
+    <content src="http://192.168.0.88:8010" />
 
     <log level="DEBUG"/>
     <preference name="useBrowserHistory" value="true" />
